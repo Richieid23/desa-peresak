@@ -19,3 +19,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/profile/sejarah-desa', [ProfileController::class, 'sejarah'])->name('profile.sejarah');
 Route::get('/profile/visi-misi-desa', [ProfileController::class, 'visi_misi'])->name('profile.visi-misi');
+Route::get('/profile/perangkat-desa', [ProfileController::class, 'perangkat'])->name('profile.perangkat');
