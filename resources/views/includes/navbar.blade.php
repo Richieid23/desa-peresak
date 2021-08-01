@@ -6,8 +6,8 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <div class="navbar navbar-light">
-                                <a href="#" class="navbar-brand">
-                                    <img alt="Porto" width="60" height="60" data-sticky-width="50" data-sticky-height="50" src="img/logo.jpg">
+                                <a href="{{ route('home') }}" class="navbar-brand">
+                                    <img alt="Porto" width="60" height="60" data-sticky-width="50" data-sticky-height="50" src="/img/logo.jpg">
                                     <strong>DESA PERESAK</strong>
                                 </a>
                             </div>
@@ -21,22 +21,22 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle active" href="#">
+                                            <a class="dropdown-item dropdown-toggle active" href="{{ route('home') }}">
                                                 Beranda
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
                                                 Profil Desa
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">
+                                                    <a class="dropdown-item" href="{{ route('profile.sejarah') }}">
                                                         Sejarah Desa
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">
+                                                    <a class="dropdown-item" href="{{ route('profile.visi-misi') }}">
                                                         Visi Misi
                                                     </a>
                                                 </li>
