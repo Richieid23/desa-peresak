@@ -16,8 +16,6 @@
 <link rel="stylesheet" href="css/theme-blog.css">
 <link rel="stylesheet" href="css/theme-shop.css">
 
-
-
 <!-- Skin CSS -->
 <link id="skinCSS" rel="stylesheet" href="css/skins/default.css">
 
