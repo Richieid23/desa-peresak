@@ -41,12 +41,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">
-                                                       Potensi Wilayah Desa
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item" href="#">
+                                                    <a class="dropdown-item" href="{{ route('profile.perangkat') }}">
                                                         Perangkat Desa
                                                     </a>
                                                 </li>

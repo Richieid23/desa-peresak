@@ -10,23 +10,6 @@
         <div class="owl-stage-outer">
             <div class="owl-stage">
 
-                <!-- Carousel Slide 2 -->
-                <div class="owl-item position-relative overflow-hidden">
-                    <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="blurIn" data-appear-animation-duration="5s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url(img/image-2.jpg); background-size: cover; background-position: center;"></div>
-                    <div class="container position-relative z-index-3 h-100">
-                        <div class="row justify-content-center align-items-center h-100" style="background: rgba(0, 0, 0, 0.5); display: none">
-                            <div class="col-lg-7">
-                                <div class="d-flex flex-column align-items-center">
-                                    <h2 class="text-color-light font-weight-extra-bold text-12-5 line-height-1 text-center mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">INCREDIBLE DESIGNS</h2>
-                                    <p class="text-4-5 text-color-light font-weight-light text-center mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Porto is a huge success in the one of largest world's MarketPlace</p>
-                                    <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-5 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2500" data-plugin-options="{'minWindowWidth': 0}">GET STARTED NOW <i class="fas fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Carousel Slide 2 -->
                 <div class="owl-item position-relative overflow-hidden">
                     <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="blurIn" data-appear-animation-duration="5s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url(img/slider-2.jpg); background-size: cover; background-position: center;"></div>
                     <div class="container position-relative z-index-3 h-100" data-appear-animation="blurIn" data-appear-animation-delay="500" style="background: rgba(0, 0, 0, 0.5)">
@@ -35,7 +18,22 @@
                                 <div class="d-flex flex-column align-items-center">
                                     <h2 class="text-color-light font-weight-extra-bold text-12-5 line-height-1 text-center mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">INCREDIBLE DESIGNS</h2>
                                     <p class="text-4-5 text-color-light font-weight-light text-center mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1500, 'minWindowWidth': 0, 'animationSpeed': 30}">Porto is a huge success in the one of largest world's MarketPlace</p>
-                                    <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-5 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2000" data-plugin-options="{'minWindowWidth': 0}">GET STARTED NOW <i class="fas fa-arrow-right ml-2"></i></a>
+                                    <a href="{{ route('profile.sejarah') }}" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-5 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2500" data-plugin-options="{'minWindowWidth': 0}">Profil Desa <i class="fas fa-arrow-right ml-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item position-relative overflow-hidden">
+                    <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0" data-appear-animation="blurIn" data-appear-animation-duration="5s" data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show style="background-image: url(img/image-2.jpg); background-size: cover; background-position: center;"></div>
+                    <div class="container position-relative z-index-3 h-100">
+                        <div class="row justify-content-center align-items-center h-100" style="background: rgba(0, 0, 0, 0.5); display: show">
+                            <div class="col-lg-7">
+                                <div class="d-flex flex-column align-items-center">
+                                    <h2 class="text-color-light font-weight-extra-bold text-12-5 line-height-1 text-center mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">INCREDIBLE DESIGNS</h2>
+                                    <p class="text-4-5 text-color-light font-weight-light text-center mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 30}">Porto is a huge success in the one of largest world's MarketPlace</p>
+                                    <a href="{{ route('profile.sejarah') }}" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-5 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2500" data-plugin-options="{'minWindowWidth': 0}">Profil Desa <i class="fas fa-arrow-right ml-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -75,14 +73,15 @@
         </div>
     </div>
 
-    <section class="section section-parallax section-height-3 border-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 7, 'parallaxHeight': '150%', 'offset': 100}" data-image-src="img/image-1.jpg">
+    <section class="section section-parallax section-height-3 border-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 7, 'parallaxHeight': '150%', 'offset': 50}" data-image-src="img/image-1.jpg">
         <div class="container pb-5 mb-5">
             <div class="row text-center pb-5 mb-5">
                 <div class="col-md-10 mx-md-auto pb-5 mb-5" style="background: rgba(255, 255, 255, 0.705)">
                     <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
                         <span>Desa Peresak </span>
                         <span class="word-rotator-words bg-dark">
-                            <b class="is-visible">Aman</b>
+                            <b class="is-visible">AKUR</b>
+                            <b>Aman</b>
                             <b>Kompetitif</b>
                             <b>Unggul</b>
                             <b>Religius</b>
@@ -193,7 +192,7 @@
                 <h2 class="text-color-dark font-weight-normal text-6 mb-2"> <strong class="font-weight-extra-bold">Staf Dan Aparatur </strong>Desa</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit massa enim. Nullam id varius nunc.</p>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum magna ex, et faucibus lacus venenatis eget.</p>
-                <a href="page-team.html" class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LEARN MORE</a>
+                <a href="{{ route('profile.perangkat') }}" class="btn btn-dark font-weight-semibold rounded-0 px-5 btn-py-2 text-2 p-relative bottom-3">LIHAT PERANGKAT DESA</a>
             </div>
         </div>
     </div>
