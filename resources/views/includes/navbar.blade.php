@@ -21,12 +21,12 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle active" href="{{ route('home') }}">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('home')) ? 'active' : '' }}" href="{{ route('home') }}">
                                                 Beranda
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('profile*')) ? 'active' : '' }}" href="#">
                                                 Profil Desa
                                             </a>
                                             <ul class="dropdown-menu">
@@ -48,7 +48,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('berita*')) ? 'active' : '' }}" href="{{ route('berita') }}">
                                                 Berita Desa
                                             </a>
                                         </li>
