@@ -15,4 +15,9 @@ class ProfileController extends Controller
     {
         return view('pages.profile.visi-misi');
     }
+
+    public function perangkat()
+    {
+        return view('pages.profile.perangkat');
+    }
 }
