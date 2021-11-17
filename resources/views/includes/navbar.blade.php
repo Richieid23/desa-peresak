@@ -21,15 +21,20 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('home')) ? 'active' : '' }}" href="{{ route('home') }}">
+                                            <a class="dropdown-item dropdown-toggle active" href="{{ route('home') }}">
                                                 Beranda
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('profile*')) ? 'active' : '' }}" href="#">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
                                                 Profil Desa
                                             </a>
                                             <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('profile') }}">
+                                                        Profile Desa
+                                                    </a>
+                                                </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('profile.sejarah') }}">
                                                         Sejarah Desa
@@ -37,7 +42,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item" href="{{ route('profile.visi-misi') }}">
-                                                        Visi Misi
+                                                        Visi Misi Desa
                                                     </a>
                                                 </li>
                                                 <li>
@@ -45,10 +50,15 @@
                                                         Perangkat Desa
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="{{ route('profile.potensi') }}">
+                                                        Potensi Desa
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ (request()->is('berita*')) ? 'active' : '' }}" href="{{ route('berita') }}">
+                                            <a class="dropdown-item dropdown-toggle" href="{{ route('berita') }}">
                                                 Berita Desa
                                             </a>
                                         </li>
@@ -58,12 +68,12 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item" href="#">
+                                                    <a class="dropdown-item" href="{{ route('data.apbdes') }}">
                                                         Data APBDes
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="#">
+                                                    <a class="dropdown-item" href="{{ route('data.administratif') }}">
                                                         Data Wilayah Administratif
                                                     </a>
                                                 </li>
@@ -95,6 +105,11 @@
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
+                                                    <a class="dropdown-item" href="{{ route('lembaga.karang-taruna') }}">
+                                                        Karang Taruna
+                                                    </a>
+                                                </li>
+                                                <li>
                                                     <a class="dropdown-item" href="#">
                                                         BUMDES
                                                     </a>
@@ -117,7 +132,7 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle" href="{{ route('layanan-mandiri.login') }}">
                                                 Layanan Mandiri
                                             </a>
                                         </li>
