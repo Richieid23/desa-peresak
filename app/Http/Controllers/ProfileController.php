@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class ProfileController extends Controller
 {
+    public function profile()
+    {
+        return view('pages.profile.profile');
+    }
+
     public function sejarah()
     {
         return view('pages.profile.sejarah');
@@ -19,5 +24,10 @@ class ProfileController extends Controller
     public function perangkat()
     {
         return view('pages.profile.perangkat');
+    }
+
+    public function potensi()
+    {
+        return view('pages.profile.potensi');
     }
 }
