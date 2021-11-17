@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="get-started text-left text-lg-right">
-                        <a href="#" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Masuk</a>
+                        <a href="{{ route('layanan-mandiri.login') }}" class="btn btn-primary btn-lg text-3 font-weight-semibold px-4 py-3">Masuk</a>
                         <div class="learn-more">atau <a href="#"> Tanya Desa</a></div>
                     </div>
                 </div>
